@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #674bb1;
+    padding: 60px 60px 50px 60px;
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1200px;
+}
+.main{
+    display: flex;
+    margin-top: 100px;
+}
+.reg{
+    margin-left: 40px;
+    color: white;
+    margin-top: 60px;
+}
+.reg h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 50px;
+}
+.reg p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.reg a{
+    padding: 15px 65px;
+    color: #6757a2;
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    box-shadow: 2px 7px 24px 0px rgba(0,0,0,0.3);
+}
+.reg a:hover{
+    color: white;
+    background-color: #e980e7;
+    transition-duration: 0.5s;
+}
+.fa-facebook-f{
+    width: 18px;
+    text-align: center;
+}
+.fa-twitter{
+    width: 20px;
+    text-align: center;
+}
+.soc{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+}
+footer{
+ float: right;
+}
+.soc-icon{
+    width: 30px;
+}
+.soc:hover{
+    color: #e980e7;
+    border-color: #e980e7;
+    transition-duration: 0.5s;
+}
+@media only screen and (max-width: 375px) {
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-size: 400px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    img{
+        max-width: 100%;
+    }
+    header img{
+        width: 150px;
+    }
+    .reg{
+        margin-top: 20px;
+    }
+    .main{
+        margin-top: 30px;
+    }
+    .reg{
+        margin-left: 0px;
+    }
+    .reg h1{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: capitalize;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+    }
+    .reg p{
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    footer{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .reg a{
+        padding: 15px 65px;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
